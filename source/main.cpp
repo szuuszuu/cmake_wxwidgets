@@ -27,7 +27,7 @@ IMPLEMENT_APP(MyApp)
 bool MyApp::OnInit()
 {
   /* Create and show the application's main window. */
-  MainWindow *mainWindow = new MainWindow(wxT("MyApp"), 640, 480);
+  MainWindow *mainWindow = new MainWindow(wxT("MyApp"), 320, 240);
   mainWindow->Show(true);
 
   return true;

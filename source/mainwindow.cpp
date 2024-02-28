@@ -20,6 +20,8 @@
 MainWindow::MainWindow(const wxString& title, int width, int height)
   : wxFrame(NULL, wxID_ANY, title, wxDefaultPosition, wxSize(width, height))
 {
+  /* Create and add the panel to the frame. */
+  m_Panel = new wxPanel(this, wxID_ANY);
   /* Center the window on the screen. */
   Centre();
 } /*** end of MainWindow ***/

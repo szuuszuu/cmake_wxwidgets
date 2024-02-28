@@ -7,8 +7,10 @@ project(myapp)
 # Add sources.
 set(
   PROG_SRCS
-  source/main.cpp
-  source/mainwindow.cpp
+  # source/main.cpp
+  # source/mainwindow.cpp
+  source/calc.cpp
+  source/MainFrame.cpp
 )
 
 # Request the required wxWidgets libs.
